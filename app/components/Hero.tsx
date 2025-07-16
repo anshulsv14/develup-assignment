@@ -30,19 +30,19 @@ const Hero = () => {
         <div className="flex justify-end relative ">
           <img
             className="h-[450px]"
-            src="/assets/hero/heroimage.png"
+            src="/assets/Hero/heroimage.png"
             
             alt=""
           />
           <img
             className="absolute top-15 left-40 h-[80px] w-auto"
-            src="/assets/hero/hero-card-1.png"
+            src="/assets/Hero/hero-card-1.png"
            
             alt=""
           />
           <img
             className="absolute bottom-10 left-50 h-[90px] w-auto"
-            src="/assets/hero/hero-card-2.png"
+            src="/assets/Hero/hero-card-2.png"
             
             alt=""
           />
