@@ -31,19 +31,19 @@ const Hero = () => {
           <img
             className="h-[450px]"
             src="/assets/hero/heroimage.png"
-            height={undefined}
+            
             alt=""
           />
           <img
             className="absolute top-15 left-40 h-[80px] w-auto"
             src="/assets/hero/hero-card-1.png"
-            height={undefined}
+           
             alt=""
           />
           <img
             className="absolute bottom-10 left-50 h-[90px] w-auto"
             src="/assets/hero/hero-card-2.png"
-            height={undefined}
+            
             alt=""
           />
         </div>
