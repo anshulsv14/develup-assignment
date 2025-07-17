@@ -12,19 +12,19 @@ const Courses = () => {
     },
     {
       text: "Technology",
-      className: "bg-transparent !text-black"
+      className: "bg-transparent !text-black hover:bg-teal-500",
     },
     {
       text: "Design",
-      className: "bg-transparent !text-black"
+      className: "bg-transparent !text-black hover:bg-teal-500",
     },
     {
       text: "Marketing",
-      className: "bg-transparent !text-black"
+      className: "bg-transparent !text-black hover:bg-teal-500",
     },
     {
       text: "Business",
-      className: "bg-transparent !text-black"
+      className: "bg-transparent !text-black hover:bg-teal-500",
     },
   ];
 
