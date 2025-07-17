@@ -7,7 +7,7 @@ const Banner = () => {
   const bannerdata = [
     {
       text: "Start Hiring now",
-      className: "bg-sky-400 mt-[20px]",
+      className: "bg-gradient-to-r from-blue-300 to-blue-600 my-5",
     }
   ];
   return (

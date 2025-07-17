@@ -6,7 +6,7 @@ import SearchBar from "./SearchBar";
 
 const Hero = () => {
   return (
-    <div className="min-h-[500px] bg-gradient-to-r pt-[4rem] from-sky-100 to-white-600 m-auto ">
+    <div className="min-h-[500px] bg-gradient-to-r  from-sky-100 to-white-600 pt-[4rem] m-auto ">
       <div className="max-w-7xl grid grid-cols-2  gap-4 m-auto py-10 ">
         <div className="flex items-center">
           {" "}

@@ -2,30 +2,35 @@ import React from "react";
 import CourseCard from "./CourseCard";
 import Heading from "./Heading";
 import Marquee from "react-fast-marquee";
+import Button from "./Button";
 
 const Courses = () => {
-  const coursedata = [
+  const coursebuttondata = [
     {
-      text: "All courser",
-      className: "bg-sky-400",
+      text: "All courses",
+      className: "bg-gradient-to-r from-blue-300 to-blue-600",
     },
     {
       text: "Technology",
+      className: "bg-transparent !text-black"
     },
     {
       text: "Design",
+      className: "bg-transparent !text-black"
     },
     {
       text: "Marketing",
+      className: "bg-transparent !text-black"
     },
     {
       text: "Business",
+      className: "bg-transparent !text-black"
     },
   ];
 
   const coursesdata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
   return (
-    <div className="flex flex-col gap-6">
+    <div className="flex flex-col gap-4">
       <div className="flex flex-col gap-2">
         <Heading
           heading={[
@@ -43,7 +48,11 @@ const Courses = () => {
           </h2>
         </div>
       </div>
-
+      <div className="flex flex-wrap justify-center gap-4 mt-9 mb-9">
+          {coursebuttondata.map((item, index) => (
+            <Button text={item.text} className={item?.className} key={index} />
+          ))}
+        </div>
       <Marquee pauseOnHover>
         <div className="flex gap-6 py-8">
           {coursesdata.map((item, index) => {

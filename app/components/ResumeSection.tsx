@@ -9,10 +9,12 @@ const ResumeSection = () => {
   const filterdata = [
     {
       text: "All Jobs",
-      className: "bg-sky-400",
+      className: "bg-gradient-to-r from-blue-300 to-blue-600",
     },
     {
       text: "Remote",
+      
+      
     },
     {
       text: "Full-time",
@@ -27,13 +29,13 @@ const ResumeSection = () => {
   const jobdata = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
   return (
     <>
-      <div className="bg-slate-50 p-8">
+      <div className="bg-slate-50 p-10">
         <div>
           <Heading
             heading={[{ text: "Find Your Dream Job", color: "text-black" }]}
           />
           <div className="flex justify-center">
-            <h2 className="text-[20px] max-w-[696px] mt-[25px] text-gray-500 font-normal text-center">
+            <h2 className="text-[20px] max-w-[696px] mt-[15px] text-gray-500 font-normal text-center">
               Discover opportunities that match your skills and aspirations with
               our AI-powered job matching system.
             </h2>

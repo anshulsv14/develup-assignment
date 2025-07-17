@@ -1,4 +1,5 @@
 import { FiClock, FiUsers } from "react-icons/fi";
+import Button from "./Button";
 
 const CourseCard = () => {
   return (
@@ -28,9 +29,8 @@ const CourseCard = () => {
         </div>
       </div>
 
-      <button className="mt-5 w-full bg-gradient-to-r from-[#6CB4FF] to-[#4766FF] cursor-pointer text-white font-medium py-2 rounded-md hover:opacity-90 transition">
-        Enroll now
-      </button>
+    
+      <Button text="Enroll now" className="mt-5 w-full bg-gradient-to-r from-blue-300 to-blue-600 " />
     </div>
   );
 };
